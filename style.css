@@ -429,12 +429,18 @@ footer{
         font-size: 58%;
     }
 }
-@media(max-width:520px){
+@media(max-width:550px){
     .players{
         grid-template-columns: repeat(1,1fr);
     }
     html{
         font-size: 55%;
+    }
+    .course{
+        flex-basis: 100%;
+    }
+    .contact form{
+        width: 100%;
     }
 }
 /* ----------responsive------- */
