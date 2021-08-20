@@ -249,7 +249,8 @@ hr{
     display: flex;
     align-items: center;
 }
-.course-info .rating i{
+.course-info .rating i,
+.commnet-col .rating i{
     color: #eb4d4b;
     font-size: 1.3rem;
 }
@@ -312,7 +313,8 @@ hr{
 .form-group textarea:focus{
     border: 1px solid rgba(128, 128, 128, 0.54);
 }
-.contact form button{
+.contact form button,
+#commnetBtn{
     width: 120px;
     padding: 10px;
     font-size: 1.4rem;
@@ -332,6 +334,107 @@ hr{
     color: var(--link-color);
 }
 /* ---------conatact---------- */
+
+/* -------commnet-------- */
+#comment{
+    background: var(--sectio-bg-color);
+    padding: 30px;
+    border-radius: 5px;
+}
+#comment h1{
+    color: whitesmoke;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.comment-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.commnet-col{
+    flex: 1;
+}
+#comment ul li{
+    color: #fff;
+    font-size: 1.6rem;
+    margin: 20px 0;
+}
+#comment ul li .delete{
+    color: red;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 5px;
+}
+#commnetInput{
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.2);
+    outline: none;
+    background: transparent;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 5px;
+    padding: 15px;
+}
+#comment .rating-title{
+    font-size: 2rem;
+    font-weight: 400;
+}
+/* -------box---- */
+.box{
+    display: flex;
+    align-items: center;
+}
+.box button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(255,255,255,0.2);
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}
+.box input{
+    width: 60px;
+    height: 40px;
+    border: 1px solid rgba(255,255,255,0.2);
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    background: var(--main-bg-color);
+    outline: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+.commnet-col .rating{
+    margin-top: 30px;
+    display: flex;
+    gap: 5px;
+}
+.commnet-col .rating i{
+    font-size: 2rem;
+}
+#first{
+    display: none;
+}
+#second{
+    display: none;
+}
+#third{
+    display: none;
+}
+#fourth{
+    display: none;
+}
+#fifth{
+    display: none;
+}
+/* -------commnet-------- */
 
 /* ----------footer------- */
 footer{
